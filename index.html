@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <div class="main-section">
+    <img class="bg-main-img" src="images/desktop/image-header.jpg" alt="header">
+    <div class="header-container">
+      <div class="header">
+        <img src="images/logo.svg" alt="logo">
+        <div class="header-buttons-container">
+          <button class="header-btn">
+            About
+          </button>
+          <button class="header-btn">
+            Services
+          </button>
+          <button class="header-btn">
+            Projects
+          </button>
+          <button class="header-btn contact">
+            Contact
+          </button>
+        </div>
+        <button onclick="mobClick()" class="hamburger-menu">
+          <img src="images/icon-hamburger.svg" alt="hamburger">
+        </button>
+        <div id="mobile-menu-container">
+          <div class="mobile-menu">
+            <button class="mobile-btn">
+              About
+            </button>
+            <button class="mobile-btn">
+              Services
+            </button>
+            <button class="mobile-btn">
+              Projects
+            </button>
+            <button class="mobile-btn contact contact-mob">
+              Contact
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="weare-container">
+        <p>
+          We are creatives
+        </p>
+      </div>
+      <div class="arrow-down-container">
+        <img src="images/icon-arrow-down.svg" alt="arrow-down">
+      </div>
+    </div>
+  </div>
+  <div class="section first">
+    <div class="left">
+      <div class="left-text-container">
+        <p class="section-name">
+          Transform your brand
+        </p>
+        <p class="section-description">
+          We are a full-service creative agency specializing in helping brands grow fast. 
+          Engage your clients through compelling visuals that do most of the marketing for you.
+        </p>
+        <button class="section-button">
+          Learn more
+          <div class="btn-underline yellow"></div>
+        </button>
+      </div>
+    </div>
+    <div class="right">
+      <img id="transform-img" src="images/desktop/image-transform.jpg" alt="transform">
+    </div>
+  </div>
+  <div class="section second">
+    <div class="right">
+      <img id="stand-out-img" src="images/desktop/image-stand-out.jpg" alt="stand-out">
+    </div>
+    <div class="left">
+      <div class="left-text-container">
+        <p class="section-name">
+          Stand out to the right audience
+        </p>
+        <p class="section-description">
+          Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.
+        </p>
+        <button class="section-button">
+          Learn more
+          <div class="btn-underline red"></div>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="section">
+    <div class="just-img">
+      <img id="graphic-design-img" src="images/desktop/image-graphic-design.jpg" alt="graphic-design">
+      <div class="img-text">
+        <p class="img-text-name design1">
+          Graphic design
+        </p>
+        <p class="img-text-description design1">
+          Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
+        </p>
+      </div>
+    </div>
+    <div class="just-img">
+      <img id="photography-img" src="images/desktop/image-photography.jpg" alt="photography">
+      <div class="img-text">
+        <p class="img-text-name design2">
+          Photography
+        </p>
+        <p class="img-text-description design2">
+          Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="reviews-section">
+    <p class="reviews-text">Client testimonials</p>
+    <div class="reviews-block">
+      <div class="review">
+        <img src="images/image-emily.jpg" alt="emily">
+        <p class="review-description">
+          We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
+        </p>
+        <p class="review-person">
+          Emily R.
+        </p>
+        <p class="review-state">
+          Marketing Director
+        </p>
+      </div>
+      <div class="review">
+        <img src="images/image-thomas.jpg" alt="thomas">
+        <p class="review-description">
+          Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
+        </p>
+        <p class="review-person">
+          Thomas S.
+        </p>
+        <p class="review-state">
+          Chief Operating Officer
+        </p>
+      </div>
+      <div class="review">
+        <img src="images/image-jennie.jpg" alt="jennie">
+        <p class="review-description">
+          Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
+        </p>
+        <p class="review-person">
+          Jennie F.
+        </p>
+        <p class="review-state">
+          Business Owner
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="gallery">
+    <div class="gallery-img-container">
+      <img src="images/desktop/image-gallery-milkbottles.jpg" alt="milkbottles">
+    </div>
+    <div class="gallery-img-container">
+      <img src="images/desktop/image-gallery-orange.jpg" alt="orange">
+    </div>
+    <div class="gallery-img-container">
+      <img src="images/desktop/image-gallery-cone.jpg" alt="cone">
+    </div>
+    <div class="gallery-img-container">
+      <img src="images/desktop/image-gallery-sugarcubes.jpg" alt="sugarcubes">
+    </div>
+  </div>
+  <div class="footer">
+    <img class="footer-logo" src="images/logo.svg" alt="logo">
+    <div class="footer-buttons">
+      <button class="footer-btn">
+        About
+      </button>
+      <button class="footer-btn">
+        Services
+      </button>
+      <button class="footer-btn">
+        Projects
+      </button>
+    </div>
+    <div class="footer-buttons">
+      <img src="images/icon-facebook.svg" alt="facebook">
+      <img src="images/icon-instagram.svg" alt="instagram">
+      <img src="images/icon-twitter.svg" alt="twitter">
+      <img src="images/icon-pinterest.svg" alt="pinterest">
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>

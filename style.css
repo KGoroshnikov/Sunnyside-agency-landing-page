@@ -1,0 +1,418 @@
+body{
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+button{
+  font-family: Barlow;
+  font-size: 18px;
+}
+
+p{
+  font-family: Barlow;
+  font-size: 18px;
+}
+
+*{
+  margin: 0;
+}
+
+.main-section{
+  position: relative;
+  display: flex;
+}
+
+.bg-main-img{
+  width: 100%;
+}
+
+.header-container{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.header{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 20px;
+}
+
+.header-btn{
+  color: white;
+  background: none;
+  border: none;
+  margin-left: 30px;
+}
+
+.header-btn:hover{
+  cursor: pointer;
+}
+
+.mobile-btn{
+  color: hsl(232, 10%, 55%);
+  background: none;
+  border: none;
+  margin-bottom: 30px;
+}
+
+.hamburger-menu{
+  display: none;
+  background: none;
+  border: none;
+}
+
+.hamburger-menu:hover{
+  cursor: pointer;
+}
+
+#mobile-menu-container{
+  display: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 10vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobile-menu{
+  width: 80vw;
+  padding: 50px 0;
+  border-radius: 25px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact{
+  font-family: Fraunces;
+  font-weight: 700;
+  background-color: white;
+  padding: 18px 25px;
+  border-radius: 100px;
+  text-transform: uppercase;
+  color: hsl(212, 27%, 19%);
+  transition: background-color 0.15s;
+}
+
+.contact-mob{
+  background-color: hsl(51, 100%, 49%);
+  margin: 0;
+}
+
+.contact:hover{
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.weare-container p{
+  font-family: Fraunces;
+  font-weight: 900;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 60px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 11px;
+}
+
+.arrow-down-container{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.section{
+  display: flex;
+}
+
+.left{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.left-text-container{
+  max-width: 450px;
+}
+
+.just-img{
+  position: relative;
+  flex: 1;
+}
+
+.just-img img{
+  display: flex;
+  width: 100%;
+}
+
+.right{
+  display: flex;
+  flex: 1;
+}
+.right img{
+  width: 100%;
+}
+.section-name{
+  font-family: Fraunces;
+  font-weight: 900;
+  font-size: 46px;
+  color: hsl(212, 27%, 19%);
+}
+
+.section-description{
+  color: hsl(232, 10%, 55%);
+  margin: 24px 0;
+}
+
+.section-button{
+  position: relative;
+  background: none;
+  border: none;
+  color: hsl(212, 27%, 19%);
+  font-family: Fraunces;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.section-button:hover{
+  cursor: pointer;
+}
+
+.section-button:hover .btn-underline{
+  opacity: 1;
+}
+
+.btn-underline{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 10px;
+  border-radius: 10px;
+  z-index: -1;
+  opacity: 0.2;
+  transition: opacity 0.15s;
+}
+
+.yellow{background-color: hsl(51, 100%, 49%);}
+.red{background-color: hsl(7, 99%, 70%);}
+
+.img-text{
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-text-name{
+  font-family: Fraunces;
+  font-weight: 900;
+  font-size: 26px;
+  text-align: center;
+}
+
+.design1{color: hsl(167, 40%, 24%);}
+.design2{color: hsl(198, 62%, 26%);}
+
+.img-text-description{
+  text-align: center;
+  max-width: 55%;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+
+.reviews-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 150px 0;
+}
+
+.reviews-text{
+  font-family: Fraunces;
+  font-weight: 700;
+  font-size: 22px;
+  letter-spacing: 5px;
+  color: hsl(210, 4%, 67%);
+  text-transform: uppercase;
+  margin-bottom: 70px;
+}
+
+.reviews-block{
+  display: flex;
+  justify-content: center;
+}
+
+.review{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 20px;
+}
+
+.review img{
+  width: 80px;
+  border-radius: 100%;
+}
+
+.review-description{
+  color: hsl(213, 9%, 39%);
+  max-width: 350px;
+  text-align: center;
+  margin: 65px 0;
+  line-height: 28px;
+}
+
+.review-person{
+  color: hsl(212, 27%, 19%);
+  font-family: Fraunces;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.review-state{
+  margin-top: 15px;
+  color: hsl(210, 4%, 67%);
+  font-size: 16px;
+}
+
+.gallery{
+  display: flex;
+}
+
+.gallery-img-container{
+  display: flex;
+  flex: 1;
+}
+
+.gallery-img-container img{
+  width: 100%;
+}
+
+
+.footer{
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #90d4c5;
+}
+
+.footer-logo{
+  filter: brightness(0) saturate(100%) invert(48%) sepia(50%) saturate(361%) hue-rotate(118deg) brightness(92%) contrast(88%);
+}
+
+.footer-btn{
+  color: hsl(168, 34%, 41%);
+  background: none;
+  border: none;
+  margin: 20px;
+  transition: color 0.15s;
+}
+
+.footer-buttons img{
+  margin: 15px;
+}
+
+.footer-btn:hover{
+  color: white;
+  cursor: pointer;
+}
+
+@media(max-width: 1060px){
+  .img-text-description{
+    font-size: 14px;
+    max-width: 65%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+  }
+}
+
+@media(max-width: 900px){
+  .bg-main-img{
+    content: url("images/mobile/image-header.jpg");
+  }
+  #transform-img{content: url("images/mobile/image-transform.jpg");}
+  #stand-out-img{content: url("images/mobile/image-stand-out.jpg");}
+  #graphic-design-img{content: url("images/mobile/image-graphic-design.jpg");}
+  #photography-img{content: url("images/mobile/image-photography.jpg");}
+  .header-buttons-container{
+    display: none;
+  }
+
+  .weare-container p{
+    font-size: 40px;
+    letter-spacing: 5px;
+    margin-top: 50px;
+  }
+
+  .hamburger-menu{
+    display: flex;
+  }
+
+  .left{
+    padding: 40px;
+  }
+
+  .left-text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .first{
+    flex-direction: column-reverse;
+  }
+
+  .second{
+    flex-direction: column;
+  }
+
+  .section-name{
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .section-description{text-align: center;}
+
+  .img-text-description{
+    font-size: 18px;
+    max-width: 90%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+  }
+
+  .reviews-section{
+    padding: 30px 0;
+  }
+
+  .reviews-text{
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .reviews-block{
+    flex-direction: column;
+  }
+
+  .review-description{
+    margin: 35px 0;
+  }
+}
